@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html_Task_8</title>
+  </head>
+  <style>
+    h1 {
+      color: rgb(44, 60, 239);
+    }
+    form {
+      border: 1px solid black;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td {
+      border: 1px solid black;
+      padding-right: 8px;
+    }
+    .label1 {
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+    }
+    .button {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <h1>Registration form</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td class="label1"><label for="">First Name:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Last Name:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Email:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label>Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Age:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Phone Number:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Address:</label></td>
+          <td><textarea name="address" cols="30" rows="3"></textarea></td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">State:</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="label1"><label>Language known:</label></td>
+          <td>
+            <input type="checkbox" name="Language known" /> Hindi
+            <input type="checkbox" name="Language known" /> English
+            <input type="checkbox" name="Language known" /> Kannada
+            <input type="checkbox" name="Language known" /> Telugu
+          </td>
+        </tr>
+        <tr>
+          <td class="label1"><label for="">Country:</label></td>
+          <td>
+            <select name="country" style="width: fit-content">
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="India">India</option>
+              <option value="UK">UK</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" name="Language known" /> Hereby I declare all
+            the given details are true
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: end">
+            Log into <a href="">Ethnus </a>website
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div class="button">
+      <button style="align-items: center">Register</button>
+    </div>
+     
+  </body>
+</html>
